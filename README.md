@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 %config InlineBackend.figure_format = 'retina'
+%load_ext autoreload
+%autoreload 2
 
 from sklearn.compose import make_column_transformer
 from sklearn.linear_model import LogisticRegression
